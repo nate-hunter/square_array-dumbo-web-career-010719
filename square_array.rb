@@ -4,11 +4,11 @@
 #   2. How can I operate on each element of an array and also collect or store those elements?
 #   3. How can I square a number? Hint: There is more than one way to do it! Google Ruby's exponent operator or refer back to the     earlier lesson on simple math.
 
-
+numbers = [2, 4, 6, 8]
 
 def square_array(array)
   array.each do |num ** 2| 
     array
   end
   
-  
+ square_array(numbers) 
