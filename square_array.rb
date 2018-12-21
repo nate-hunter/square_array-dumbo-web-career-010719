@@ -7,8 +7,8 @@
 numbers = [2, 4, 6, 8]
 
 def square_array(array)
-  array.each do |num ** 2| 
-    array
+  array.each do |num| 
+    num ** 2 
   end
   
  square_array(numbers) 
